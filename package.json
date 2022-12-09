@@ -1,12 +1,12 @@
 {
   "name": "@draswap/lib",
-  "version": "4.0.0-alpha-3",
+  "version": "4.0.1-alpha",
   "description": "📖 Solidity libraries that are shared across Draswap contracts",
   "files": [
     "contracts",
     "!contracts/test"
   ],
-  "homepage": "https://draswap.org",
+  "homepage": "https://draswap.com",
   "repository": {
     "url": "https://github.com/Draswap/lib",
     "type": "git"
@@ -39,9 +39,5 @@
     "test": "mocha",
     "prepublishOnly": "yarn test"
   },
-  "license": "GPL-3.0-or-later",
-  "dependencies": {
-    "@draswap/lib": "^4.0.0-alpha-2",
-    "@uniswap/lib": "^4.0.1-alpha"
-  }
+  "license": "GPL-3.0-or-later"
 }
